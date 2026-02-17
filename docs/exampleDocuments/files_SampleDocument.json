@@ -1,0 +1,11 @@
+{
+  "_id": 1000,
+  "senderId": 1000,
+  "receiverId": 1000,
+  "receiverGroupId": 1000,
+  "fileName": "example",
+  "fileUrl": "example",
+  "fileType": "example",
+  "fileSize": NumberLong(1000),
+  "sentAt": "example"
+}

@@ -1,0 +1,9 @@
+{
+  "_id": 1000,
+  "senderId": 1000,
+  "receiverId": 1000,
+  "receiverGroupId": 1000,
+  "message": "example",
+  "iv": "example",
+  "sentAt": "example"
+}

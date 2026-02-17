@@ -1,0 +1,12 @@
+{
+  "_id": 1000,
+  "groupName": "example",
+  "createdAt": "example",
+  "groupPicture": "example",
+  "members": [
+    {
+      "userId": 1000,
+      "joinedAt": "example"
+    }
+  ]
+}

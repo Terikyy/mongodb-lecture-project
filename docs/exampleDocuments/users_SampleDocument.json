@@ -1,0 +1,8 @@
+{
+  "_id": 1000,
+  "username": "example",
+  "email": "example",
+  "password": "example",
+  "createdAt": "example",
+  "profilePicture": "example"
+}
