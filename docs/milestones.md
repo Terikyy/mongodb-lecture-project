@@ -7,7 +7,7 @@
 ## **Milestone 2: Define topics for the presentation / movie and eBook chapters (until 17.02.2026)**
 - Select topics that are a better fit for the presentation / movie or eBook chapters
 
-## **Milestone 3: Convert relational database schema to MongoDB (until 17.02.2026)**
+## **Milestone 3: Convert relational database schema to MongoDB (until 18.02.2026)**
 - Take a relational database schema from a former project and convert it
 
 ## **Milestone 4: Assign topics for presentation / movie and eBook chapters to team members (until 20.02.2026)**
