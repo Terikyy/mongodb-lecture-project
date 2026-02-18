@@ -1,0 +1,28 @@
+\section{Project Overview}
+\subsection{Project Title}
+\textbf{MongoDB Implementation of a Chat Application Schema}
+
+\subsection{Goal of the Project}
+This project explores MongoDB as a document-oriented NoSQL database solution.
+We migrate and analyze a chat application database schema originally designed for relational databases to demonstrate MongoDB's capabilities, advantages, and use cases.
+
+\subsection{Context}
+The course deliverables are:
+\begin{itemize}
+  \item A recorded presentation / movie about MongoDB.
+  \item An eBook chapter covering MongoDB concepts, design, installation, examples, and evaluation.
+  \item A MongoDB implementation of the migrated schema (plus a relational baseline for comparison).
+\end{itemize}
+
+\subsection{Scope and Deliverables}
+The project implements the database of a chat application with the following logical entities:
+\begin{itemize}
+  \item \textbf{Users}: user accounts and authentication data
+  \item \textbf{Groups}: chat groups / channels
+  \item \textbf{Group Members}: relationship between users and groups
+  \item \textbf{Chat Messages}: messages sent within groups
+  \item \textbf{Files}: file attachments shared in conversations
+\end{itemize}
+
+\subsection{Baseline and Target Data Model}
+Figure~\ref{fig:rel_schema} shows the relational schema used as baseline. Figure~\ref{fig:mongo_schema} shows the derived MongoDB schema / collection design.

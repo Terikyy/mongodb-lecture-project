@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  citecolor=black
+}
+
+\setlist[itemize]{noitemsep,topsep=0.2em}
+\setlist[enumerate]{noitemsep,topsep=0.2em}
+
+\title{\textbf{Project Plan: MongoDB}\\[0.3em]
+\large Database II (NoSQL) --- DHBW Stuttgart}
+\author{Erik von Heyden \and Ognjen Jovanovic \and Kevin Kienle \and Simon Chasi}
+\date{February 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\vspace{1.0cm}
+\begin{center}
+\begin{minipage}{0.92\textwidth}
+\textbf{Abstract.} This document defines the scope, structure, responsibilities, and timeline for the course project on MongoDB. The project delivers (i) a MongoDB implementation of a migrated chat-application schema, (ii) a recorded presentation / movie, and (iii) an eBook chapter for the course NoSQL eBook.
+\end{minipage}
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+
+\input{sections/overview.tex}
+\input{sections/structure.tex}
+\input{sections/responsibilities.tex}
+\input{sections/timeline.tex}
+\input{sections/schema.tex}
+
+\end{document}
