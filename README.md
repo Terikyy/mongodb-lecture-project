@@ -34,31 +34,31 @@ For detailed project timeline and deliverables, see [docs/milestones.md](docs/mi
 
 The project presentation covers:
 
-1. Type of Database & History
-2. Improvements over Relational DB Design
-3. DB Design (Advantages/Disadvantages)
-4. Test Examples (Using Former SQL Project)
-5. Query Performance & Indexing
-6. API
-7. Advantages and Disadvantages (eco system, usage tiers, ...)
-8. CAP Theorem Analysis
-9. Conclusion
+1. Introduction to Document Store Databases
+2. MongoDB: History and Overview
+3. From SQL to NoSQL: Why Document Stores?
+4. MongoDB Data Modeling
+5. Practical Example: Messaging Service Migratio
+6. MongoDB API
+7. CAP Theorem: MongoDB’s Trade-offs
+8. Conclusion and Recommendations
+9. References (APA style)
 
 ## eBook Chapter Structure
 
 The written chapter includes:
 
-1. Type of Database & History
-2. Improvements over Relational DB Design
-3. DB Design (Advantages/Disadvantages)
-4. Installation (Process, Requirements, Challenges)
-5. Test Examples (Using Former SQL Project)
-6. Query Performance & Indexing
-7. API
-8. Advantages and Disadvantages (eco system, usage tiers, ...)
-9. CAP Theorem Analysis
-10. Conclusion
-11. References (APA Style)
+1. Introduction to Document Store Databases
+2. MongoDB: History and Overview
+3. From SQL to NoSQL: Why Document Stores?
+4. MongoDB Data Modeling
+5. Installation and Setup
+6. Practical Example: Messaging Service Migratio
+7. MongoDB API
+8. ⁠MongoDB Ecosystem and Deployment
+9. CAP Theorem: MongoDB’s Trade-offs
+10. Conclusion and Recommendations
+11. References (APA style)
 
 ## License
 
