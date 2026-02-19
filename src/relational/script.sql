@@ -120,3 +120,14 @@ VALUES (1, 3, 'Hello there, how can I help you?', NOW());
 
 INSERT INTO `chat_messages` (sender_id, receiver_id, message, sent_at)
 VALUES (1, 4, 'Hello there, how can I help you?', NOW());
+
+INSERT INTO `groups` (group_name, group_picture)
+VALUES ('CS Project Group', NULL);
+
+SET @gid = LAST_INSERT_ID();
+
+INSERT INTO `group_members` (group_id, user_id)
+VALUES (@gid, 2), (@gid, 3), (@gid, 4);
+
+INSERT INTO `chat_messages` (sender_id, receiver_group_id, message, sent_at)
+VALUES (2, 1, 'Hey team — group chat is live!', NOW());
